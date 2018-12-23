@@ -17,7 +17,7 @@ prep :
 pull :
 	docker-compose pull
 
-up : prep pull
+up : prep
 	docker-compose up -d
 
 down :
